@@ -1,0 +1,69 @@
+body {
+  font-family: "Figtree", sans-serif;
+}
+.btn {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 4.5px;
+  width: 5rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+.btn:hover {
+  background-color: black;
+  color: hsl(47, 88%, 63%);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14px;
+}
+h3 {
+  font-weight: 800;
+}
+p {
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+}
+.greg {
+  color: black;
+  font-weight: 800;
+  font-size: 14px;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex: content;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  border-radius: 5%;
+  background-color: white;
+  padding: 1rem;
+  width: 90%;
+  max-width: 320px;
+  margin: 7rem;
+  border: black;
+  border-top: solid black 1px;
+  border-left: solid black 1px;
+  border-bottom: solid black 10px;
+  border-right: solid black 10px;
+}
+
+.yellow {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 5%;
+}
+.align {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  width: 2rem;
+  padding-right: 0.9rem;
+}
